@@ -1,0 +1,14 @@
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/bin/Debug/net8.0/Starter
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/bin/Debug/net8.0/Starter.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/bin/Debug/net8.0/Starter.pdb
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.pdb
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Starter/obj/Debug/net8.0/ref/Starter.dll

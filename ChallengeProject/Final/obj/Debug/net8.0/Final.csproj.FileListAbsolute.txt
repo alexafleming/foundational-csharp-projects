@@ -1,0 +1,14 @@
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/bin/Debug/net8.0/Final
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/bin/Debug/net8.0/Final.deps.json
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/bin/Debug/net8.0/Final.runtimeconfig.json
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/bin/Debug/net8.0/Final.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/bin/Debug/net8.0/Final.pdb
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.AssemblyInfoInputs.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.AssemblyInfo.cs
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.csproj.CoreCompileInputs.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/refint/Final.dll
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.pdb
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/Final.genruntimeconfig.cache
+/Users/alexafleming/Desktop/csharp /ChallengeProject/Final/obj/Debug/net8.0/ref/Final.dll
