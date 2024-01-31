@@ -1,0 +1,15 @@
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/bin/Debug/net8.0/logic-learning
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/bin/Debug/net8.0/logic-learning.deps.json
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/bin/Debug/net8.0/logic-learning.runtimeconfig.json
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/bin/Debug/net8.0/logic-learning.dll
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/bin/Debug/net8.0/logic-learning.pdb
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.AssemblyInfoInputs.cache
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.AssemblyInfo.cs
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.csproj.CoreCompileInputs.cache
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.sourcelink.json
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.dll
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/refint/logic-learning.dll
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.pdb
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/logic-learning.genruntimeconfig.cache
+/Users/alexafleming/Desktop/csharp /foundational-csharp-projects/foundational-csharp-projects/logic-learning/obj/Debug/net8.0/ref/logic-learning.dll
