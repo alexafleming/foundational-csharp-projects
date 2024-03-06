@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("logic-learning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae901943a0eacf08ab6b3cfd684b60fa4226b16f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd29cd57e95095b18ca6ff808546b7aa1fd376d")]
 [assembly: System.Reflection.AssemblyProductAttribute("logic-learning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("logic-learning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

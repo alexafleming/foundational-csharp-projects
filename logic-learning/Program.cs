@@ -352,10 +352,59 @@ foreach (var name in names)
 // decimal measurement = 123456.78912m;
 // Console.WriteLine($"Measurement: {measurement:N4} units");
 
-decimal price = 67.55m;
-decimal salePrice = 59.99m;
+// decimal price = 67.55m;
+// decimal salePrice = 59.99m;
 
-string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
+// string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
 
-yourDiscount += $"A discount of {((price - salePrice)/price):P2}!"; //inserted
-Console.WriteLine(yourDiscount);
+// yourDiscount += $"A discount of {((price - salePrice)/price):P2}!"; //inserted
+// Console.WriteLine(yourDiscount);
+
+// int invoiceNumber = 1201;
+// decimal productShares = 25.4568m;
+// decimal subtotal = 2750.00m;
+// decimal taxPercentage = .15825m;
+// decimal total = 3185.19m;
+
+// Console.WriteLine($"Invoice Number: {invoiceNumber}");
+// Console.WriteLine($"   Shares: {productShares:N3} Product");
+// Console.WriteLine($"     Sub Total: {subtotal:C}");
+// Console.WriteLine($"           Tax: {taxPercentage:P2}");
+// Console.WriteLine($"     Total Billed: {total:C}");
+
+// string message = "What is the value <span>between the tags</span>?";
+
+// int openingPosition = message.IndexOf("<span>");
+// int closingPosition = message.IndexOf("</span>");
+
+// openingPosition += 6;
+// int length = closingPosition - openingPosition;
+// Console.WriteLine(message.Substring(openingPosition, length));
+// Console.WriteLine(message.Substring(openingPosition, length));
+
+// string message = "(What if) I am (only interested) in the last (set of parentheses)?";
+// int openingPosition = message.LastIndexOf('(');
+
+// openingPosition += 1;
+// int closingPosition = message.LastIndexOf(')');
+// int length = closingPosition - openingPosition;
+// Console.WriteLine(message.Substring(openingPosition, length));
+
+string message = "(What if) there are (more than) one (set of parentheses)?";
+while (true)
+{
+    int openingPosition = message.IndexOf('(');
+    if (openingPosition == -1)
+    {
+        break;
+    }
+
+    openingPosition += 1;
+    int closingPosition = message.IndexOf(')');
+    int length = closingPosition - openingPosition;
+    Console.WriteLine(message.Substring(openingPosition, length));
+
+    // Note the overload of the Substring to return only the remaining 
+    // unprocessed message:
+    message = message.Substring(closingPosition + 1);
+}
