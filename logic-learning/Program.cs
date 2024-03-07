@@ -390,21 +390,41 @@ foreach (var name in names)
 // int length = closingPosition - openingPosition;
 // Console.WriteLine(message.Substring(openingPosition, length));
 
-string message = "(What if) there are (more than) one (set of parentheses)?";
-while (true)
+// string message = "(What if) there are (more than) one (set of parentheses)?";
+// while (true)
+// {
+//     int openingPosition = message.IndexOf('(');
+//     if (openingPosition == -1)
+//     {
+//         break;
+//     }
+
+//     openingPosition += 1;
+//     int closingPosition = message.IndexOf(')');
+//     int length = closingPosition - openingPosition;
+//     Console.WriteLine(message.Substring(openingPosition, length));
+
+//     // Note the overload of the Substring to return only the remaining 
+//     // unprocessed message:
+//     message = message.Substring(closingPosition + 1);
+// }
+
+// string message = "This--is--ex-amp-le--da-ta";
+// message = message.Replace("--", " ");
+// message = message.Replace("-", "");
+// Console.WriteLine(message);
+
+
+Console.WriteLine("Generating random numbers:");
+DisplayRandomNumbers();
+
+void DisplayRandomNumbers()
 {
-    int openingPosition = message.IndexOf('(');
-    if (openingPosition == -1)
+    Random random = new Random();
+
+    for (int i = 0; i < 5; i++) 
     {
-        break;
+        Console.Write($"{random.Next(1, 100)} ");
     }
-
-    openingPosition += 1;
-    int closingPosition = message.IndexOf(')');
-    int length = closingPosition - openingPosition;
-    Console.WriteLine(message.Substring(openingPosition, length));
-
-    // Note the overload of the Substring to return only the remaining 
-    // unprocessed message:
-    message = message.Substring(closingPosition + 1);
+    Console.WriteLine();
 }
