@@ -935,59 +935,103 @@ else ipAddress is invalid
 // }
 
 
+// Random random = new Random();
+// bool ShouldPlay()
+// {
+//     string userInput = Console.ReadLine();
+//     if (userInput == "Y")
+//     {
+//         return true;
+//     }
+//     else
+//     {
+//         return false;
+//     }
+// }
+
+
+// string WinOrLose(int target, int userRoll)
+// {
+//     if (userRoll > target)
+//     {
+//         return "You Win!";
+//     }
+//     else if (userRoll == target)
+//     {
+//         return "Tie Game!";
+//     }
+//     else
+//     {
+//         return " You Lose!";
+//     }
+// }
+
+// Console.WriteLine("Would you like to play? (Y/N)");
+// if (ShouldPlay())
+// {
+//     PlayGame();
+// }
+
+
+// void PlayGame()
+// {
+//     var play = true;
+
+//     while (play)
+//     {
+
+//         var target = random.Next(1, 5);
+//         var roll = random.Next(1, 6);
+//         Console.WriteLine($"Roll a number greater than {target} to win!");
+//         Console.WriteLine($"You rolled a {roll}");
+//         Console.WriteLine(WinOrLose(target, roll));
+//         Console.WriteLine("\nPlay again? (Y/N)");
+
+//         play = ShouldPlay();
+//     }
+// }
+
+
+
+// - There will be three visiting schools
+//     - School A has six visiting groups (the default number)
+//     - School B has three visiting groups
+//     - School C has two visiting groups
+
+// - For each visiting school, perform the following tasks
+//     - Randomize the animals
+//     - Assign the animals to the correct number of groups
+//     - Print the school name
+//     - Print the animal groups
+
+
+
+using System;
+
+string[] pettingZoo = 
+{
+    "alpacas", "capybaras", "chickens", "ducks", "emus", "geese", 
+    "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws", 
+    "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
+};
+
+RandomizeAnimals();
+// string[,] group = AssignGroup();
+Console.WriteLine("School A");
+// PrintGroup(group);
+
+void RandomizeAnimals() 
+{
 Random random = new Random();
-bool ShouldPlay()
+
+for (int i = 0; i < pettingZoo.Length; i++) 
 {
-    string userInput = Console.ReadLine();
-    if (userInput == "Y")
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    int r = random.Next(i, pettingZoo.Length);
+
+    string temp = pettingZoo[i];
+    pettingZoo[i] = pettingZoo[r];
+    pettingZoo[r] = temp;
+}
 }
 
-
-string WinOrLose(int target, int userRoll)
-{
-    if (userRoll > target)
-    {
-        return "You Win!";
-    }
-    else if (userRoll == target)
-    {
-        return "Tie Game!";
-    }
-    else
-    {
-        return " You Lose!";
-    }
-}
-
-Console.WriteLine("Would you like to play? (Y/N)");
-if (ShouldPlay())
-{
-    PlayGame();
-}
-
-
-void PlayGame()
-{
-    var play = true;
-
-    while (play)
-    {
-
-        var target = random.Next(1, 5);
-        var roll = random.Next(1, 6);
-        Console.WriteLine($"Roll a number greater than {target} to win!");
-        Console.WriteLine($"You rolled a {roll}");
-        Console.WriteLine(WinOrLose(target, roll));
-        Console.WriteLine("\nPlay again? (Y/N)");
-
-        play = ShouldPlay();
-    }
-}
 
