@@ -1006,72 +1006,140 @@ else ipAddress is invalid
 
 
 
-using System;
+// using System;
 
-string[] pettingZoo =
+// string[] pettingZoo =
+// {
+//     "alpacas", "capybaras", "chickens", "ducks", "emus", "geese",
+//     "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws",
+//     "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
+// };
+
+// RandomizeAnimals();
+// string[,] group = AssignGroup();
+// Console.WriteLine("School A");
+// PrintGroup(group);
+
+// PlanSchoolVisit("School A");
+// PlanSchoolVisit("School B", 3);
+// PlanSchoolVisit("School C", 2);
+
+// void PlanSchoolVisit(string schoolName, int groups = 6)
+// {
+//     RandomizeAnimals();
+//     string[,] group = AssignGroup(groups);
+//     Console.WriteLine(schoolName);
+//     PrintGroup(group);
+// }
+
+// void RandomizeAnimals()
+// {
+//     Random random = new Random();
+
+//     for (int i = 0; i < pettingZoo.Length; i++)
+//     {
+//         int r = random.Next(i, pettingZoo.Length);
+
+//         string temp = pettingZoo[i];
+//         pettingZoo[i] = pettingZoo[r];
+//         pettingZoo[r] = temp;
+//     }
+// }
+
+// string[,] AssignGroup(int groups = 6) 
+// {
+//     string[,] result = new string[groups, pettingZoo.Length/groups];
+
+//    int start = 0;
+
+// for (int i = 0; i < groups; i++) 
+// {
+//     for (int j = 0; j < result.GetLength(1); j++) 
+//     {
+//         result[i,j] = pettingZoo[start++];
+//     }
+// }
+
+//     return result;
+// }
+
+// void PrintGroup(string[,] group) 
+// {
+//     for (int i = 0; i < group.GetLength(0); i++) 
+//     {
+//         Console.Write($"Group {i + 1}: ");
+//         for (int j = 0; j < group.GetLength(1); j++) 
+//         {
+//             Console.Write($"{group[i,j]}  ");
+//         }
+//         Console.WriteLine();
+//     }
+// }
+
+
+
+
+
+// MINI GAME!!!
+
+/*
+- The code declares the following variables:
+    - Variables to determine the size of the Terminal window.
+    - Variables to track the locations of the player and food.
+    - Arrays `states` and `foods` to provide available player and food appearances
+    - Variables to track the current player and food appearance
+
+- The code provides the following methods:
+    - A method to determine if the Terminal window was resized.
+    - A method to display a random food appearance at a random location.
+    - A method that changes the player appearance to match the food consumed.
+    - A method that temporarily freezes the player movement.
+    - A method that moves the player according to directional input.
+    - A method that sets up the initial game state.
+
+- The code doesn't call the methods correctly to make the game playable. The following features are missing:
+    - Code to determine if the player has consumed the food displayed.
+    - Code to determine if the food consumed should freeze player movement.
+    - Code to determine if the food consumed should increase player movement.
+    - Code to increase movement speed.
+    - Code to redisplay the food after it's consumed by the player.
+    - Code to terminate execution if an unsupported key is entered.
+    - Code to terminate execution if the terminal was resized.
+ */
+
+
+
+ /* 
+This code uses a names array and corresponding methods to display
+greeting messages
+*/
+
+string[] names = new string[] { "Sophia", "Andrew", "AllGreetings" };
+
+string messageText = "";
+
+foreach (string name in names)
 {
-    "alpacas", "capybaras", "chickens", "ducks", "emus", "geese",
-    "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws",
-    "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
-};
+    if (name == "Sophia")
+        messageText = SophiaMessage();
+    else if (name == "Andrew")
+        messageText = AndrewMessage();
+    else if (name == "AllGreetings")
+        messageText = SophiaMessage();
+        messageText = messageText + "\n\r" + AndrewMessage();
 
-RandomizeAnimals();
-string[,] group = AssignGroup();
-Console.WriteLine("School A");
-PrintGroup(group);
-
-PlanSchoolVisit("School A");
-PlanSchoolVisit("School B", 3);
-PlanSchoolVisit("School C", 2);
-
-void PlanSchoolVisit(string schoolName, int groups = 6)
-{
-    RandomizeAnimals();
-    string[,] group = AssignGroup(groups);
-    Console.WriteLine(schoolName);
-    PrintGroup(group);
+    Console.WriteLine(messageText + "\n\r");
 }
 
-void RandomizeAnimals()
+bool pauseCode = true;
+while (pauseCode == true);
+
+static string SophiaMessage()
 {
-    Random random = new Random();
-
-    for (int i = 0; i < pettingZoo.Length; i++)
-    {
-        int r = random.Next(i, pettingZoo.Length);
-
-        string temp = pettingZoo[i];
-        pettingZoo[i] = pettingZoo[r];
-        pettingZoo[r] = temp;
-    }
+    return "Hello, my name is Sophia.";
 }
 
-string[,] AssignGroup(int groups = 6) 
+static string AndrewMessage()
 {
-    string[,] result = new string[groups, pettingZoo.Length/groups];
-
-   int start = 0;
-
-for (int i = 0; i < groups; i++) 
-{
-    for (int j = 0; j < result.GetLength(1); j++) 
-    {
-        result[i,j] = pettingZoo[start++];
-    }
-}
-
-    return result;
-}
-
-void PrintGroup(string[,] group) 
-{
-    for (int i = 0; i < group.GetLength(0); i++) 
-    {
-        Console.Write($"Group {i + 1}: ");
-        for (int j = 0; j < group.GetLength(1); j++) 
-        {
-            Console.Write($"{group[i,j]}  ");
-        }
-        Console.WriteLine();
-    }
+    return "Hi, my name is Andrew. Good to meet you.";
 }
