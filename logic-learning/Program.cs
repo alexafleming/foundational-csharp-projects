@@ -1174,13 +1174,42 @@ else ipAddress is invalid
 This code instantiates a value and then calls the ChangeValue method
 to update the value. The code then prints the updated value to the console.
 */
-int x = 5;
+// int x = 5;
 
-ChangeValue(x);
+// ChangeValue(x);
 
-Console.WriteLine(x);
+// Console.WriteLine(x);
 
-void ChangeValue(int value) 
+// void ChangeValue(int value) 
+// {
+//     value = 10;
+// }
+
+
+
+try
 {
-    value = 10;
+    Process1();
+}
+catch
+{
+    Console.WriteLine("An exception has occurred");
+}
+
+Console.WriteLine("Exit program");
+
+static void Process1()
+{
+    WriteMessage();
+}
+
+static void WriteMessage()
+{
+    double float1 = 3000.0;
+    double float2 = 0.0;
+    int number1 = 3000;
+    int number2 = 0;
+
+    Console.WriteLine(float1 / float2);
+    Console.WriteLine(number1 / number2);
 }
